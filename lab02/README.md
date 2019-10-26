@@ -79,9 +79,7 @@ console.log(utils.diff(tabB, tabA));
 ```
 
 
-2. Zmodyfikujmy 2 zadanie tak aby funkcja odpowiedzialna za usuwanie zduplikowanych wartości pochodziła nie z modułu lokalnego a z repozytorium `npm` (nazwa modułu `lodash`).
-
-3. Podmieńmy funkcję do porównywania tablic na funkcję z modułu `lodash`.
+3. Zmodyfikujmy 2 zadanie tak aby funkcja odpowiedzialna za usuwanie zduplikowanych wartości pochodziła nie z modułu lokalnego a z repozytorium `npm` (nazwa modułu `lodash`). Podmieńmy również funkcję do porównywania tablic na funkcję z modułu `lodash`.
 
 4. Wykorzystując bibliotekę `lodash` znaleźć minimalną oraz maksymalną wartość w tablicy:
 

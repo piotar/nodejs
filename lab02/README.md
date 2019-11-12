@@ -131,7 +131,10 @@ W tym zadaniu wykorzystamy zewnętrzny moduł `request`. Pakiet ten udostępnia 
 
 Adres do pobrania danych:
 ```
-https://api.openweathermap.org/data/2.5/weather?q=Bia%C5%82ystok&APPID=0ed761300a2725ca778c07831ae64d6e
+https://api.openweathermap.org/data/2.5/weather?APPID=0ed761300a2725ca778c07831ae64d6e&q=Bia%C5%82ystok
+
+https://api.openweathermap.org/data/2.5/weather?APPID=0ed761300a2725ca778c07831ae64d6e&q=NAZWA_MIASTA 
+gdzie 'q' to parametr zawierający nazwę miasta do sprawdzenia pogody
 ```
 
 12. Zmodyfikujmy zadanie 11 tak aby miejscowość była podawana przez parametr wejściowy. W tym celu dodajmy zewnętrzny moduł `yargs`.
@@ -140,3 +143,8 @@ Przykładowe wywołanie programu:
 ```
 > node app --city=bialystok
 ```
+
+## UWAGA!!!
+
+Dodatkowy diagram jak ma działać aplikacja 11-12:
+![11/12](./assets/z11.png)

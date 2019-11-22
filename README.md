@@ -5,3 +5,4 @@ NodeJS 2019/2020
 
 1. https://slides.com/piotrtarasiuk/nodejs-basic
 2. https://slides.com/piotrtarasiuk/nodejs-event-loop
+3. https://slides.com/piotrtarasiuk/callback-and-promise

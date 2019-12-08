@@ -132,7 +132,7 @@ https://api.openweathermap.org/data/2.5/weather?appid=0ed761300a2725ca778c07831a
 gdzie `{LAT}` i `{LNG}` to współrzędne geograficzne pobrane od naszego użytkownika
 ```
 
-8. Podzielmy naszą aplikację z punktu 8 na moduły odpowiednio:
+8. Podzielmy naszą aplikację z punktu 7 na moduły odpowiednio:
 
 `app.js` – plik główny który uruchomi naszą aplikację i wywoła funkcje z naszego modułu `user.js`
 

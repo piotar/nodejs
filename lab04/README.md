@@ -128,7 +128,7 @@ getUser(2)
 
 6. Zmodyfikujmy zadanie 5 tak, aby pobrać kilku użytkowników w tej samej chwili wykorzystując `Promise.all()`. Wyświetlmy ich imiona w konsoli. (id użytkowników: 2,5,7). Poinformujmy iż nasz `Promise` został w pełni rozwiązany. 
 
-7. Rozszerzając zadanie 5 z wykorzystaniem wiedzy z poprzednich zajęć, zapiszmy nasz cały obiekt pogody do pliku wykorzystując wbudowany moduł `fs` i funkcję `writeFile`. Oczywiście zadanie polega na odpowiednim dostosowaniu funkcji aby obsługiwała `Promise`. 
+7. Dodajmy do zadania 5 zapis całego obiektu pogody do pliku wykorzystując wbudowany moduł `fs` i funkcję `writeFile`. Oczywiście zadanie polega na odpowiednim dostosowaniu funkcji aby obsługiwała `Promise`. 
 
 8. Jak wiadomo świat JS jest bardzo rozbudowany i nie trzeba za każdym razem tworzyć od nowa konstrukcji asynchronicznych żądań do serwera. Są od tego biblioteki😊
 Na stronie https://npmjs.org możemy znaleźć dużo różnych implementacji bibliotek które udostępniają już gotowe obiekty przystosowane do `Promise`, np.:

@@ -58,6 +58,16 @@ Dodatkowa lektura uzupełniająca wiedzę odnośnie `error handling` oraz `async
 
 ## Zadania do wykonania na laboratorium
 
+0. Wykorzystując zdobytą wiedzę, stwórzmy prostą aplikację pozwalającą na przetrzymywanie w pliku listy zadań do wykonania (klasyczna lista TODO). Użyjmy w tym celu biblioteki `yargs` z konstrukcją `command`. Aplikacja powinna pozwalać na dodanie do listy nowego zadania, jak również wyświetlić zawartość całej listy.
+
+Przykładowe wywołanie programu:
+
+```bash
+> node app.js dodaj "kupic mleko"
+> node app.js dodaj "napisac program na zaliczenie z NodeJS"
+> node app.js lista
+```
+
 1. W katalogu `01` znajduje się plik `user.json`. Wykorzystując wiedzę z poprzednich zajęć, stwórzmy aplikację wczytującą naszego użytkownika z pliku i zamieńmy go na obiekt JS oraz wyświetlmy w konsoli jego imię. 
 
 Użyjmy w tym zadaniu funkcję `readFileSync` z wbudowanego modułu `fs` oraz funkcję `JSON.parse` do przeparsowania wczytanej zawartości do obiektu. 
@@ -97,29 +107,19 @@ add(4, 5)
 
 5. Zmodyfikujmy nasze zadanie 4 tak aby zamiast `.then..catch` użyć `await`.
 
-6. Do zadania 5 dodajmy funkcje odejmowania oraz dzielenia 2 liczb. Wykorzystując bibliotekę `yargs` i jego rozszerzoną składnie(`command`), wywołaj odpowiednią funkcję z naszej aplikacji.
-
-Przykładowe wywołanie programu:
-
-```bash
-> node app.js dodaj 2 3
-> node app.js odejmij 5 3
-> node app.js podziel 4 2
-```
-
-7. Wykorzystując wiedzę z poprzednich zajęć użyjmy zewnętrznej biblioteki `axios` i pobierzmy użytkownika dane wykorzystując składnię `async/await`.
+6. Wykorzystując wiedzę z poprzednich zajęć użyjmy zewnętrznej biblioteki `axios` i pobierzmy użytkownika dane wykorzystując składnię `async/await`.
 
 > Endpoint do użytkownika: https://jsonplaceholder.typicode.com/users/2
 
-8. Dodajmy do naszego zadania 7 obsługę błędów `try..catch`.
+7. Dodajmy do naszego zadania 6 obsługę błędów `try..catch`.
 
-9. Wykorzystując składnię `async/await` zmodyfikujmy zadanie 8 tak aby pobrać kilku użytkowników w tej samej chwili wykorzystując `Promise.all()`. Wyświetlmy ich imiona w konsoli. (id użytkowników: 2, 3, 5, 7).
+8. Wykorzystując składnię `async/await` zmodyfikujmy zadanie 8 tak aby pobrać kilku użytkowników w tej samej chwili wykorzystując `Promise.all()`. Wyświetlmy ich imiona w konsoli. (id użytkowników: 2, 3, 5, 7).
 
-10. Dodajmy do naszej aplikacji z zadania 8 pobieranie pogody dla naszego użytkownika (z odpowiedzi weźmy `main.temp` i wyświetlmy na ekranie). Zadanie analogiczne jak w poprzednim laboratorium z wykorzystaniem składni `async/await`.
+9. Dodajmy do naszej aplikacji z zadania 7 pobieranie pogody dla naszego użytkownika (z odpowiedzi weźmy `main.temp` i wyświetlmy na ekranie). Zadanie analogiczne jak w poprzednim laboratorium z wykorzystaniem składni `async/await`.
 
 > Endpoint do pogody: https://api.openweathermap.org/data/2.5/weather?appid=0ed761300a2725ca778c07831ae64d6e&lat={lat}&lon={lng}
 
-11. Stwórzmy aplikację która pobierze informację o użytkowniku i statystykach jego postów i komentarzy.
+10. Stwórzmy aplikację która pobierze informację o użytkowniku i statystykach jego postów i komentarzy.
 
 - Z pobranego użytkownika wyświetlmy na ekranie nazwę użytkownika oraz email. 
 - Pobierzmy wszystkie posty użytkownika i wyświetlmy ich ilość w konsoli.

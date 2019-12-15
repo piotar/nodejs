@@ -1,0 +1,2 @@
+kupić mleko
+napisać program na zaliczenie z NodeJS

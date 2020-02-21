@@ -79,7 +79,7 @@ Aby możliwe było przetestowanie wysłanego żądania zainstalujmy POSTMAN'a
 3. Stwórzmy pierwsze pełne `REST API`, które pozwoli nam na zarządzanie cytatami (klasyczny CRUD).
 
 - wyświetlane wszystkich cytatów (`GET`)
-- wyświetlane wszystkich konkretnego cytatu (`GET`)
+- wyświetlane konkretnego cytatu (`GET`)
 - dodawanie cytatu (`POST`)
 - usunie cytatu (`DELETE`)
 

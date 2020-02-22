@@ -82,6 +82,7 @@ Aby możliwe było przetestowanie wysłanego żądania zainstalujmy POSTMAN'a
 - wyświetlane konkretnego cytatu (`GET`)
 - dodawanie cytatu (`POST`)
 - usunie cytatu (`DELETE`)
+- edytowanie cytatu (`PUT`)
 
 4. Dodajmy do naszej aplikacji z zadania 3 nową funkcjonalność. Stwórzmy moduł pozwalający na zarządzanie listą zadań. (Task manager/TODO list).
 

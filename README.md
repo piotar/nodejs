@@ -9,3 +9,4 @@ NodeJS 2019/2020
 4. https://slides.com/piotrtarasiuk/nodejs-http-basics
 5. https://slides.com/piotrtarasiuk/http-server
 6. https://slides.com/piotrtarasiuk/express-middleware-template-error
+7. https://slides.com/piotrtarasiuk/database

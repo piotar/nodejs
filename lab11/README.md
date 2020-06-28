@@ -133,8 +133,6 @@ Do przygotowanej bazy powinniśmy spróbować nawiązać połączenie wykorzystu
 - pozwolić na zmodyfikowanie opisu jak również i określić iż dane zadanie zostało wykonane
 - usunąć wpis z listy
 
-W tym zadaniu stwórzmy do każdego polecenia oddzielne funkcje i na samym końcu naszej aplikacji wywołajmy przykładowe zastosowanie ich.
-
 3. Zmodyfikujmy nasze zadanie 2 aby możliwe było wykorzystanie biblioteki `mongoose` zamiast wcześniej użytego zwykłego klienta `mongodb`
 
 4. Stwórzmy nową kolekcję `users`, która będzie przetrzymywała informacje o użytkownikach. Rozszerzmy model przetrzymujący informację o zadaniu z naszego wcześniejszego polecenia o referencje do użytkownika.
